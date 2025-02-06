@@ -1,0 +1,8 @@
+Questa sim programını açtıktan sonra cd {Single_Cycle.v ve sim.do'nun bulunduğu klasörün adresi} ile klasöre erişim sağlanmalı, 
+ardından Questanın alttaki konsoluna "vlog Single_Cycle.v" girilmeli, 
+derlenme sonrası "do sim.do" komutu ile simülasyon hazır hale gelir,
+Ardından yukarıda ortadaki Run komutu ile simülasyon çalıştırılır, belirlenen zaman aralığı kadar simülasyonu ilerletir
+
+Assembler içinse Python gereklidir,
+Konsoldan "cd kod.asm'nin_bulundugu_yer" ile kod ve mini_assembler.py'nin bulunduğu klasöre erisim saglanmalı
+ardından python mini_assembler.py kod.s komutu ile sırası ve makine kodu karşılığı konsola yazdırılmış olur
